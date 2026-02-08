@@ -9,7 +9,6 @@ This project demonstrates how to monitor EC2 instance CPU utilization using **AW
 - **Amazon EC2** – Compute resource to monitor
 - **Amazon CloudWatch** – Metrics and alarm configuration
 - **Amazon SNS (Simple Notification Service)** – Email alert notifications
-- **IAM** – Access and permission management
 
 ---
 
