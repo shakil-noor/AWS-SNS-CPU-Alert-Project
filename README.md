@@ -19,8 +19,6 @@ This project demonstrates how to monitor EC2 instance CPU utilization using **AW
 3. Alarm triggers when CPU usage exceeds 80%
 4. SNS topic sends an email notification to subscribed users
 
-*()*
-
 ---
 
 ## ⚙️ Implementation Steps
