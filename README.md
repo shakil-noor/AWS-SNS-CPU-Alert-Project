@@ -19,6 +19,9 @@ This project demonstrates how to monitor EC2 instance CPU utilization using **AW
 3. Alarm triggers when CPU usage exceeds 80%
 4. SNS topic sends an email notification to subscribed users
 
+![Architecture Diagram](aws-sns-cpu-alert-architecture.png)
+
+
 ---
 
 ## ⚙️ Implementation Steps
@@ -82,7 +85,7 @@ This project demonstrates how to monitor EC2 instance CPU utilization using **AW
     
 8. Click **“Next”**, review and click **“Create alarm”**
 
-### 🧪 Step 4: Test It
+### 🧪 Step 4: Testing & Validation
 
 1. SSH into your EC2 instance
 2. Run something CPU-intensive like:
@@ -100,16 +103,7 @@ When CPU spikes >80%, CloudWatch will go "OH NO," SNS will go "EMAIL TIME," and 
 
 ---
 
-## 🧪 Testing & Validation
-- Generated artificial CPU load on the EC2 instance
-- Verified alarm state change from **OK → ALARM**
-- Confirmed successful email alert delivery via SNS
-- Ensured notifications were received in near real-time
-
----
-
 ## 📸 Screenshots
-*(Optional but highly recommended)*
 - CloudWatch Alarm configuration
 - SNS topic & email subscription
 - Alert email received
@@ -139,8 +133,6 @@ When CPU spikes >80%, CloudWatch will go "OH NO," SNS will go "EMAIL TIME," and 
 ---
 
 ## 👤 Author
-**Nur Hoosain Sakil**  
-Aspiring DevOps / Cloud Engineer  
-GitHub: https://github.com/yourusername  
+**Nur Hoosain Sakil**   
+GitHub: https://github.com/shakil-noor  
 LinkedIn: https://www.linkedin.com/in/nur-hossain-sakil-a21407130/$0
-
